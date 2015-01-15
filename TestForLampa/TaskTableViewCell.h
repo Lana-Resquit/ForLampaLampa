@@ -1,5 +1,5 @@
 //
-//  DetailViewController.h
+//  TaskTableViewCell.h
 //  TestForLampa
 //
 //  Created by Kristy on 15.01.15.
@@ -7,15 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Task.h"
 
-@interface DetailViewController : UIViewController
-
-@property (strong, nonatomic) Task *detailItem;
+@interface TaskTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *taskTitle;
 @property (weak, nonatomic) IBOutlet UILabel *taskSummary;
 
-
 @end
-
